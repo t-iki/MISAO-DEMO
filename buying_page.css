@@ -1,0 +1,144 @@
+.main{
+  height:680px;
+  width: 100%;
+  background-color: white;
+}
+header{
+  height:6%;
+  width:100%;
+}
+.nav_size{
+  height:95px;
+  background-color: white;
+}
+.navbar-left  li:hover{
+  background-color: #CBFFD3;
+}
+.navbar-right li:hover
+{
+  background-color: #CBFFD3;
+}
+.icon{
+  margin-left:23px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.icons{
+  margin-left:25px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+.loginbar{
+  height:30px ;
+  width:340px;
+  margin-left: 20px;
+  background-color: #FF8C00;
+  color: white;
+}
+.loginfont{
+  padding-top: 5px;
+}
+.box{
+  height:30px ;
+  width:340px;
+  margin-left: 20px;
+}
+.facebook{
+  height:30px ;
+  width:340px;
+  margin-left: 20px;
+  background-color: #00008B	;
+}
+.login-tag{
+  margin-left: 20px;
+}
+.submit{
+  height:30px ;
+  width:340px;
+  margin-left: 20px;
+  margin-top:25px;
+  background-color: #228B22;
+  color: white;
+}
+.modal-main{
+height:600px; width:400px;margin-left:400px;margin-top:150px;
+border-radius: 4px;
+}
+.or{
+margin-left: 180px;
+}
+.close-btn{
+float: right;
+margin-left:400px;
+}
+.member{
+margin-left: 160px;
+}
+.account{
+margin-left: 110px;
+}
+.newaccount{
+  height:30px ;
+  width:340px;
+  margin-left: 20px;
+  background-color: #FFA500;
+  color: white;
+  padding-top: 1px;
+}
+.password-tag{
+  margin-left: 10px;
+}
+.box-tag{
+  margin-left: 50px;
+}
+.dob-tag{
+  margin-left:145px ;
+}
+.female{
+  margin-left: 25px;
+  float: left;
+}
+
+.main-wrapper{
+height: 70%;
+width:100%;
+}
+.main-left{
+  height:100%;
+  width:50%;
+  float:left;
+  background-color: blue;
+}
+.main-right{
+  height:100%;
+  width:50%;
+  float:left;
+  background-color: yellow;
+}
+.dis_div
+{
+  width: 90%;
+  height: 90%;
+  margin: 5%;
+}
+.dis_div img
+{
+width:100%;
+ height:100%;
+
+}
+.image-wrapper{
+  height: 19%;
+  width:100%;
+  background-color: #FFA500;
+}
+.footer{
+  text-align: center;
+  margin-top: 17px;
+}
+footer{
+  height:45px;
+  width:100%;
+  float:left;
+  background-color: #DCDCDC;
+}

@@ -8,6 +8,7 @@
     <script src="../js/bootstrap.js"></script>
     <script src="../js/ajaxPage.js"></script>
     <script src="../js/loginajax.js"></script>
+    <script src="../js/quantity.js"></script>
     <link href="buying_page.css" rel="stylesheet">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
 

@@ -4,7 +4,7 @@
   <?php
   $servername  = "localhost";
   $username    = "root";
-  $password    = "";
+  $password    = "root";
   $data        = mysqli_connect($servername,$username,$password);
   $db          = mysqli_select_db($data,"MISAO_DEMO");
 
@@ -18,12 +18,16 @@
     while ($row = mysqli_fetch_array($NAME)) {
 
       $id = $row['id'];
-      // echo "".$row['name']."";
-
-      echo "<div class='' style='height:200px; width:180px;margin:10px 2px; position:relative; float:left'>";
+      $cat= $row['categoryID'];
 
 
-      echo "<a href='buying_page.php?cat_id=$id'><img src ='image/".$row['imagename']."' alt ='image/".$row['imagename']."' style='width:100%; height:60%;margin-top:20px;margin-left:10px;'></a><br>";
+      echo "<div class='hover11' >";
+      // echo "<div class='child'>";
+      // echo "<h5  style='font-family:MS UI Gothic;'>".$row['name']."</h5>";
+      // echo "<h5  style='float:left;padding:5px;border:1px solid black; width:85px;font-family:MS UI Gothic;'>".$row['description']."</h5>";
+      // echo "</div>";
+
+      echo "<a href='buying_page.php?cat_id=$id&cat=$cat'><img src ='image/".$row['imagename']."' alt ='image/".$row['imagename']."'></a><br>";
       echo "<h5 style='margin-left:10px;font-family:MS UI Gothic;'>".$row['name']."</h5>";
       echo "<h5 style='margin-left:10px;margin-bottom:10px;float:left;font-family:MS UI Gothic;'>Rs. ".$row['price']."</h5>";
       echo "<h5 style='margin-left:100px;margin-top:13px;padding:5px;margin-bottom:10px;border:1px solid black; width:85px;font-family:MS UI Gothic;'>".$row['description']."</h5>";

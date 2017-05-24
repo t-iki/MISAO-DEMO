@@ -10,7 +10,7 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" >
         <div class="item active">
-          <img src="pexels-photo-167890_mini.jpeg" alt="pexels-photo-167890_mini" style="height:450px;width:1200px;">
+          <img src="pexels-photo-167890_mini.jpeg" alt="pexels-photo-167890_mini"class="imagephoto" style="height:450px;width:1200px;">
         </div>
 
         <div class="item">

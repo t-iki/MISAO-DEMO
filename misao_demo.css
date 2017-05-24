@@ -144,13 +144,36 @@ width:100%;
   width:100%;
 }
 
-/*#hoverdiv
+
+.hover11
 {
-  width: 100%;
-  height: 100%;
-  background: red;
+  height: 200px;
+  width: 180px;
+  margin: 10px 2px;ß
+  position: relative;
+  float: left;
+}
+
+.hover11 img{
+  width:100%;
+  height:60%;
+  margin-top:20px;
+  margin-left:10px;
+}
+.hover11  img {
+opacity: 1;
+-webkit-transition: .7s ease-in-out;
+transition: .7s ease-in-out;
+}
+.hover11:hover img {
+opacity: .5;
+}
+/*.child :hover h5{
+  display: block;
   position: absolute;
 }*/
+
+
 .footer{
   text-align: center;
   margin-top: 17px;
